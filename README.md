@@ -1,6 +1,4 @@
-Desculpe! Aqui está o README.md renovado e muito mais interativo:
 
-```markdown
 <div align="center">
 
 # 🔐✨ **Ledger → YubiKey Transform** ✨🔐
@@ -431,7 +429,7 @@ git push origin feature/minha-feature-incrivel
 *"Porque sua segurança vale mais que uma YubiKey separada!"*
 
 </div>
-```
+
 
 🎊 **Pronto!** Agora seu README.md está:
 
