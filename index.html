@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como Transformar sua Ledger em YubiKey - Tutorial Completo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1>🔐 Ledger → YubiKey</h1>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero__title">Como Transformar sua Ledger em YubiKey</h1>
+            <p class="hero__subtitle">
+                Aprenda a usar sua Ledger como chave de segurança FIDO U2F para proteger suas contas online
+                com autenticação de dois fatores de nível hardware.
+            </p>
+            <button class="btn btn--primary btn--lg hero__cta" id="startTutorial">
+                Começar Tutorial 🚀
+            </button>
+        </div>
+    </section>
+
+    <!-- Advantages Section -->
+    <section class="advantages" id="advantages">
+        <div class="container">
+            <h2>Vantagens do FIDO U2F</h2>
+            <div class="advantages__grid">
+                <div class="advantage-card">
+                    <div class="advantage-card__icon">🛡️</div>
+                    <h3>Segurança de Hardware</h3>
+                    <p>Proteção criptográfica com elemento seguro certificado</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-card__icon">🔄</div>
+                    <h3>Backup via Seed</h3>
+                    <p>Recuperação automática das credenciais usando sua seed phrase</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-card__icon">🌐</div>
+                    <h3>Múltiplos Serviços</h3>
+                    <p>Uma Ledger para todos os serviços compatíveis com FIDO U2F</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-card__icon">💰</div>
+                    <h3>Economia</h3>
+                    <p>Use o hardware que você já possui sem comprar novo dispositivo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preparation Section -->
+    <section class="preparation" id="preparation">
+        <div class="container">
+            <h2>Preparação</h2>
+            <div class="preparation__content">
+                <div class="requirements">
+                    <h3>📋 Requisitos</h3>
+                    <ul class="requirements__list">
+                        <li>✅ Ledger Nano S, X ou S Plus</li>
+                        <li>✅ Ledger Live instalado e atualizado</li>
+                        <li>✅ Cabo USB (incluído com a Ledger)</li>
+                        <li>✅ PIN da Ledger configurado</li>
+                        <li>✅ Navegador compatível (Chrome, Firefox, Edge)</li>
+                    </ul>
+                </div>
+                <div class="compatibility">
+                    <h3>⚡ Informações Importantes</h3>
+                    <div class="info-cards">
+                        <div class="info-card">
+                            <h4>FIDO U2F vs Security Key</h4>
+                            <p>Use <strong>FIDO U2F app</strong> para máxima compatibilidade. O Security Key app é mais novo mas tem limitações.</p>
+                        </div>
+                        <div class="info-card">
+                            <h4>Bluetooth (Nano X)</h4>
+                            <p>Ledger Nano X suporta FIDO U2F via Bluetooth. Procure por "Nano X U2F xxxx" nas configurações.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tutorial Section -->
+    <section class="tutorial" id="tutorial">
+        <div class="container">
+            <div class="tutorial__header">
+                <h2>Tutorial Passo a Passo</h2>
+                <div class="progress-bar">
+                    <div class="progress-bar__fill" id="progressFill"></div>
+                </div>
+                <p class="progress-text">Progresso: <span id="progressText">0/5</span> etapas concluídas</p>
+            </div>
+
+            <div class="tutorial__steps" id="tutorialSteps">
+                <!-- Steps will be populated by JavaScript -->
+            </div>
+
+            <div class="tutorial__navigation">
+                <button class="btn btn--secondary" id="prevStep" disabled>⬅️ Anterior</button>
+                <button class="btn btn--primary" id="nextStep">Próximo ➡️</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Serviços Suportados</h2>
+            <div class="services__grid" id="servicesGrid">
+                <!-- Services will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Troubleshooting Section -->
+    <section class="troubleshooting" id="troubleshooting">
+        <div class="container">
+            <h2>Solução de Problemas</h2>
+            <div class="faq" id="faqContainer">
+                <!-- FAQ will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section class="comparison" id="comparison">
+        <div class="container">
+            <h2>Vantagens vs Limitações</h2>
+            <div class="comparison__grid">
+                <div class="comparison__column">
+                    <h3 class="comparison__title comparison__title--positive">✅ Vantagens</h3>
+                    <ul class="comparison__list" id="advantagesList">
+                        <!-- Will be populated by JavaScript -->
+                    </ul>
+                </div>
+                <div class="comparison__column">
+                    <h3 class="comparison__title comparison__title--negative">⚠️ Limitações</h3>
+                    <ul class="comparison__list" id="limitationsList">
+                        <!-- Will be populated by JavaScript -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>💡 Dica: Use sua Ledger como backup de segurança junto com um YubiKey dedicado para máxima proteção!</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
