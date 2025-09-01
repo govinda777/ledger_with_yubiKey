@@ -4,7 +4,7 @@
 ### *Tutorial Interativo para Transformar sua Ledger em Token de Segurança*
 
 <div align="center">
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=ina você a usar sua carteira Ledger como uma chave de segurança FIDO U2F, funcionando similarmente a uma YubiKey para autenticação de dois fatores.
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=ina você a usar sua carteira Ledger como uma chave de segurança FIDO U2F, funcionando similarmente a uma YubiKey para autenticação de dois fatores.
 
 ```
 🎯 Objetivo: Maximizar a utilidade da sua Ledger além de criptomoedas
